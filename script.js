@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Fecha a la que se va a contar regresivamente (año, mes (base 0), día, hora, minuto, segundo)
-    var fechaFinal = new Date('2024-12-31T23:59:59');
+    var fechaFinal = new Date('2024-08-24T23:59:59');
   
     function actualizarContador() {
       var ahora = new Date();
