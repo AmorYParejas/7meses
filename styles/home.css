@@ -23,6 +23,12 @@ section{
     backdrop-filter: blur(50%);
 }
 
+#mapa span{
+    margin-top: 20px;
+    color: #4E5BA6;
+    font-weight: bolder;
+}
+
 section img{
     width: 90%;
     
@@ -84,5 +90,6 @@ section img{
 
   #dedicatoria p{
     padding: 12px;
+
   }
  
