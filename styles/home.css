@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+section{
+    text-align: center;
+}
+
+#mapa{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(50%);
+}
+
+section img{
+    width: 90%;
+    
+}
+
+
+
+#contenedor-contador{
+    padding: 50px 0; 
+}
+
+
+#contenedor-contador h6{
+    font-size: 20px;
+    color: #4E5BA6;
+}
+
+#contenedor-contador p{
+    font-size: 18px;
+    color: #4E5BA6;
+}
+
+
+#contador {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  .contador-elemento {
+    width: 85%;
+    font-size: 20px;
+    background-color: #4E5BA6;
+    color: #EAECF5;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 10px 0;
+  }
+
+  .contador-elemento div{
+    width: auto;
+    display: inline-block;
+  }
+  
+  .contador-elemento span{
+    display: inline-block;
+  }
+
+  #dedicatoria{
+    text-align: center;
+    color: #4E5BA6;
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  #dedicatoria p{
+    padding: 12px;
+  }
+ 
